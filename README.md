@@ -60,3 +60,14 @@ make clean     # バイナリと output/ を削除
 - 赤経・赤緯をそのまま平面投影（0hをまたぐ星座は折り返し処理あり）
 - 星の描画: グレースケール、明るい星にはガウシアングロー
 - 描画ライブラリ: [fogleman/gg](https://github.com/fogleman/gg)
+
+## ライセンス
+
+このプロジェクトのコードは MIT License で公開する。
+
+使用しているデータはそれぞれ以下のライセンスに従う:
+
+- **HYG Database** — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (David Nash / astronexus)
+- **Stellarium sky culture data** — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (Stellarium's team)
+
+CC BY-SA 4.0 のデータを利用しているため、生成した画像を再配布する場合は同ライセンスの条件（帰属表示・同一ライセンス）に注意すること。
